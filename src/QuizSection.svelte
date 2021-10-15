@@ -25,7 +25,7 @@
             ],
         },
         {
-            validAnswerIndex: 3,
+            validAnswerIndex: 2,
             title: "En la siguiente función: <code>y=4x^2-3x+2</code> ¿cuál es el valor de a, b y c?",
             answers: ["-3;2;4", "2;-4;-3", "4;-3;2", "4;3;2"],
         },
@@ -153,7 +153,7 @@
 </script>
 
 <div class="outer-box">
-    <div class="elements-container">
+    <div id="play" class="elements-container">
         <Quiz {selectedQuestions} {maxQuestions} />
     </div>
 </div>

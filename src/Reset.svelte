@@ -26,13 +26,14 @@
     :global(html) {
         font-family: var(--ff-primary);
         background-color: var(--main-clr);
+        scroll-behavior: smooth;
     }
 
     :global(.flex) {
         display: flex;
     }
 
-    :global(mjx-container) {
-        margin: 0 !important;
+    :global(code) {
+        font-family: monospace, sans-serif;
     }
 </style>

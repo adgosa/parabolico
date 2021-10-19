@@ -113,7 +113,7 @@
     .index {
         font-weight: 600;
         font-size: 1.1rem;
-        margin: 0;
+        margin: 0 0.5em 0 0;
     }
 
     .question-container {
@@ -126,11 +126,6 @@
         font-weight: 600;
         margin: 0;
         font-size: 1rem;
-    }
-
-    .expand {
-        color: var(--lighter-clr);
-        margin-left: auto;
     }
 
     .correct {
@@ -146,5 +141,10 @@
     .icon {
         justify-content: center;
         margin-right: 0.5em;
+    }
+
+    .expand {
+        color: var(--lighter-clr);
+        margin: 0 0 0 0.5em;
     }
 </style>

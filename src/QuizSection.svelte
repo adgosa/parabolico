@@ -168,6 +168,6 @@
     }
 
     .elements-container {
-        padding: 1em 15vw;
+        padding: 3% 15vw;
     }
 </style>

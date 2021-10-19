@@ -3,7 +3,7 @@
 </script>
 
 <div on:click class="answer flex">
-    <p on:click class="answer-text">
+    <p class="answer-text">
         {text}
     </p>
 </div>
@@ -15,7 +15,7 @@
         border-radius: 30px;
         margin-bottom: 0.5em;
         padding: 0.25em 1em;
-        width: 50%;
+        min-width: 45%;
         background-color: var(--lighter-clr);
         cursor: pointer;
         align-items: center;

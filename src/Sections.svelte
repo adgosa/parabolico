@@ -1,7 +1,7 @@
 <script>
-import QuizSection from "./QuizSection.svelte";
-
+    import QuizSection from "./QuizSection.svelte";
 </script>
+
 <div class="container flex">
     <section class="main-container flex">
         <main class="main">
@@ -9,26 +9,33 @@ import QuizSection from "./QuizSection.svelte";
             <h2 class="main-subtitle">
                 Demuestra tus conocimientos con este quiz.
             </h2>
-            <a class="play-btn" href="#play">Jugar</a>
+            <a class="play-btn" href="#quiz">Jugar</a>
         </main>
     </section>
     <section>
         <div class="how-to-play-container flex">
             <h2 class="play-title">¿Cómo se juega?</h2>
             <p class="play-paragraph">
-                Podrás responder 10 preguntas. Cuando
-                hayas terminado, se te mostrarán los resultados.
+                Podrás responder 10 preguntas. Cuando hayas terminado, se te
+                mostrarán los resultados.
             </p>
         </div>
     </section>
-    <section>
-        <QuizSection/>
+    <section id="quiz" class="quiz-section flex">
+        <QuizSection />
     </section>
 </div>
 
 <style>
     section {
         min-height: 100vh;
+    }
+
+    .quiz-section {
+        flex-direction: column;
+        align-content: center;
+        justify-content: center;
+        padding: 0 1em;
     }
 
     .container {

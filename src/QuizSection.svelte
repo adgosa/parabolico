@@ -45,7 +45,7 @@
             answers: ["Sí", "No"],
         },
         {
-            validAnswerIndex: 3,
+            validAnswerIndex: 2,
             title: "¿Qué letra representa al término independiente?",
             answers: ["a", "b", "c", "Ninguna es correcta"],
         },

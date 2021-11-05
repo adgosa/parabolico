@@ -18,7 +18,7 @@
             validAnswerIndex: 2,
             title: "¿En qué método se utiliza la resolvente?",
             answers: [
-                "Método parabólico",
+                "Método lineal",
                 "Método por tabla",
                 "Método directo",
                 "Método de segundo grado",
@@ -33,7 +33,7 @@
             validAnswerIndex: 0,
             title: "¿En qué afecta que el término cuadrático sea negativo o positivo?",
             answers: [
-                "Determina si es creciente o decreciente",
+                "Determina si el arco es creciente o decreciente",
                 "Determina si la función es par o impar",
                 "A y B son correctas",
                 "Ninguna es correcta",
@@ -41,7 +41,7 @@
         },
         {
             validAnswerIndex: 1,
-            title: "¿La ecuación <code>y=x^3+3x-4</code> es correcta cuadráticamente?",
+            title: "¿La ecuación <code>y=x^3+3x-4</code> es una función cuadrática correcta?",
             answers: ["Sí", "No"],
         },
         {
@@ -51,7 +51,7 @@
         },
         {
             validAnswerIndex: 1,
-            title: "¿Cómo se calcula la coord. al origen?",
+            title: "¿Cómo se calcula la ordenada al origen?",
             answers: [
                 "Resolviendo la resolvente",
                 "Es el valor independiente",
@@ -126,7 +126,7 @@
             title: "Dada la ecuación <code>y=x^2+1</code> ¿qué afirmación es correcta?",
             answers: [
                 "Es impar",
-                "Su imagen es [1,∞]",
+                "Su imagen es [1,∞)",
                 "Es par",
                 "A y B son correctas",
                 "B y C son correctas",
